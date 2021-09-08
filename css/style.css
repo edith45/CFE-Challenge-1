@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    z-index: 2;
+}
+
+header{
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.text{
+    position: relative;
+    z-index: 10;
+}
+
+.text h2{
+    font-size: 5rem;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.text h3{
+    font-size: 3rem;
+    color: rgb(197, 243, 243);
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: azure;
+}
+
+/* Pages design */
+.pages{
+    height: 50vh;
+    width: 100%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    top: 100vh;
+}
+
+img{
+    height: 250px;
+    width: 400px;
+}``
+
+.cover{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+
+}
+.about{
+}
